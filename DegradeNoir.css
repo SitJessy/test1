@@ -1,0 +1,13 @@
+dev
+{
+    background-image: linear-gradient(blue, green);
+
+    /* Obligatoire si on veut "voir" le dégradé */
+    width: 400px;
+    height: 300px;
+    background-image: radial-gradient(circle at center, white, green);
+    background-image:linear-gradient(white, black);
+    background: repeating-radial-gradient(farthest-side ellipse at center, white, black, white 80px);
+    width: 1400px;
+    height: 900px;
+}
